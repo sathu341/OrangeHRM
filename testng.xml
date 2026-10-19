@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM >
+
+<suite name="Mysuite" verbose="1" >
+  <test name="mytest" >
+    <classes>
+       <class name="com.orangetest.LoginTest" />
+      
+    </classes>
+  </test>
+
+ 
+</suite>
