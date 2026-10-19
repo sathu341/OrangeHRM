@@ -1,12 +1,11 @@
-<!DOCTYPE suite SYSTEM >
 
-<suite name="Mysuite" verbose="1" >
-  <test name="mytest" >
-    <classes>
-       <class name="com.orangetest.LoginTest" />
-      
-    </classes>
-  </test>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
- 
+<suite name="Mysuite" verbose="1">
+    <test name="mytest">
+        <classes>
+            <class name="com.orangetest.LoginTest"/>
+        </classes>
+    </test>
 </suite>
